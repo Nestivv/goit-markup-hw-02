@@ -1,0 +1,21 @@
+/* /все основные цвета в проекте */
+:root {
+  --text-main-primary: #212121;
+  --text-main-secondary: #757575;
+  --text-accent-primary: #2196f3;
+  --text-accent-secondary: #fff;
+  --text-footer-logo: #ffffff99;
+  --text-header-logo: #000000;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* /скрывает заголовки секций */
+.hidden {
+  visibility: hidden;
+}
+
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+}
