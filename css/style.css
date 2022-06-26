@@ -20,12 +20,18 @@
   --background-hover-hero-button: #188ce8;
   --main-hover-color: #2196f3;
   --background-member-card: #fff;
+
+  /* / цвета для страницы портфолио */
+  --portfolio-button-background: #f5f4fa;
+  --portfolio-main-background: #eeeeee;
+  --portfolio-card-background: #fff;
 }
 .body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--text-main-secondary);
   font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -125,6 +131,7 @@
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  color: var(--text-main-primary);
 }
 /* /стили к секции чем мы занимаемся */
 .our-description .description-title {
@@ -132,6 +139,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  color: var(--text-main-primary);
 }
 /* /стили для секции наша команда */
 .team {
@@ -145,6 +153,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  color: var(--text-main-primary);
 }
 
 .team-member .name {
@@ -152,6 +161,7 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--text-main-primary);
 }
 
 .team-member .specialization {
@@ -175,4 +185,43 @@
 .footer-contacts .mail,
 .footer-contacts .phone {
   color: var(--text-footer-secondary);
+}
+
+/* // стили к странице портфолио */
+/* / стили к фильтру с кнопками */
+.portfolio {
+  background-color: var(--portfolio-main-background);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: var(--portfolio-button-background);
+  cursor: pointer;
+  border: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--main-hover-color);
+  color: var(--text-accent-secondary);
+}
+
+/* /секция наши проекты */
+.portfolio-card {
+  background-color: var(--portfolio-card-background);
+  border: 1px solid var(--portfolio-main-background);
+}
+.portfolio-list {
+  font-size: 16px;
+  line-height: 1.88;
+}
+.portfolio-card .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-main-primary);
 }
