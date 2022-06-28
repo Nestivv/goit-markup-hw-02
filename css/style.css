@@ -103,6 +103,10 @@
 /* //стили к мейн */
 /* /описание секции герой */
 .hero {
+  background-color: var(--background-hero-footer);
+}
+
+.hero .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -110,7 +114,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-accent-secondary);
-  background-color: var(--background-hero-footer);
 }
 /* /стили к кнопке в герое */
 .hero-button {
@@ -121,9 +124,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 
 .hero-button:focus,
@@ -185,6 +187,7 @@
 
 .footer-adress {
   color: var(--text-footer-primary);
+  font-style: normal;
 }
 
 .footer-contacts .mail,
@@ -225,4 +228,9 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-main-primary);
+}
+
+/* временный стиль текузей страницы */
+.body .current {
+  color: var(--text-accent-primary);
 }
