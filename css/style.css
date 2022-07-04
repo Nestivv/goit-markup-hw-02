@@ -90,13 +90,17 @@
 /* /прописываем наведение для ссылок */
 .page-link:hover,
 .header-contacts .mail:hover,
-.header-contacts .phone:hover {
+.header-contacts .phone:hover,
+.footer-contacts .mail:hover,
+.footer-contacts .phone:hover {
   color: var(--main-hover-color);
 }
 
 .page-link:focus,
 .header-contacts .mail:focus,
-.header-contacts .phone:focus {
+.header-contacts .phone:focus,
+.footer-contacts .mail:focus,
+.footer-contacts .phone:focus {
   color: var(--main-hover-color);
 }
 
@@ -135,14 +139,13 @@
 }
 /* /стили секции наши преимущества */
 .features .features-title {
-  font-weight: 700;
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-main-primary);
 }
 /* /стили к секции чем мы занимаемся */
 .our-description .description-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -156,7 +159,6 @@
   background-color: var(--background-member-card);
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -205,6 +207,7 @@
   background-color: var(--portfolio-button-background);
   cursor: pointer;
   border: none;
+  font-family: inherit;
 }
 
 .filter-button:hover,
@@ -223,7 +226,6 @@
   line-height: 1.88;
 }
 .portfolio-card .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
